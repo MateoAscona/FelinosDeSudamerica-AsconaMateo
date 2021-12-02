@@ -1,0 +1,29 @@
+.Biblio__h1{
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Main__Div--Bibliografia{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 3px solid;
+    margin: 5px;
+
+    .Main__Div--Imagen{
+        max-width: 25%;
+        margin-top: 15px;
+
+        
+    }
+
+    .Main__Div--Texto{
+        max-width: 75%;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    
+}
+

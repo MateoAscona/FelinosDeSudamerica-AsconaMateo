@@ -1,0 +1,83 @@
+
+.h1__Contacto{
+    text-align: center;
+}
+
+.Div__formulario{
+    display: flex;
+    justify-content: center;
+    
+
+
+    .formulario--Formato{
+        display: grid;
+        grid-template-columns: 250px 200px;
+	    grid-template-rows: repeat(8);
+        border: 3px solid;
+        background-color: #bec294;
+        font-weight: 600;
+        padding: 10px;
+        grid-template-areas: 
+        "nombre inputNombre"
+        "email inputEmail"
+        "fecha inputFecha"
+        "nacionalidad inputNacionalidad"
+        "noticias inputNoticias"
+        "mensaje mensaje"
+        "inputMensaje inputMensaje"
+        "reset submit"
+        ;
+        grid-gap: 5px;
+
+        .formulario__label--Mensaje{
+            grid-area: mensaje;
+        }
+        .formulario__label--Email{
+            grid-area: email;
+        }
+        .formulario__label--Fecha{
+            grid-area: fecha;
+        }
+        .formulario__label--Nacionalidad{
+            grid-area: nacionalidad;
+        }
+        .formulario__label--Noticias{
+            grid-area: noticias;
+        }
+        .formulario__label--Mensaje{
+            grid-area: mensaje;
+        }
+
+        .formulario__Botones--reset{
+            grid-area: reset;
+        }
+        .formulario__Botones--submit{
+            grid-area: submit;
+        }
+
+
+    
+        .formulario__input--Nombre{
+            grid-area: inputNombre;
+        }
+        .formulario__input--Email{
+            grid-area: inputEmail;
+        }
+        .formulario__input--Fecha{
+            grid-area: inputFecha;
+        }
+        .formulario__input--Nacionalidad{
+            grid-area: inputNacionalidad;
+        }
+        .formulario__input--Noticias{
+            grid-area: inputNoticias;
+            justify-self: center;
+        }
+        .formulario__input--Mensaje{
+            grid-area: inputMensaje;
+        }
+    }
+}
+
+
+

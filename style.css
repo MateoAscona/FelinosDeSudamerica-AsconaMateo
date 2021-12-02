@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tabla "Sobre Nosotros" */
+.main__Tabla--Formato {
+  border: 3px solid;
+  text-align: center;
+}
+.main__Tabla--Formato .main__Tabla--fila1 {
+  background-color: #c45735;
+  border: 1px solid;
+  font-weight: 600;
+}
+
+tr, td {
+  border: 1px solid;
+}
+
+.titulo {
+  color: #085f05;
+}
+
+/* Formato General Header y Main*/
+header {
+  display: flex;
+  width: 100%;
+  letter-spacing: 2px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.icono__Inicio {
+  width: 30px;
+  height: 30px;
+}
+
+nav {
+  display: block;
+  width: 100%;
+  background-color: #3E5A4F;
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-family: Stick, cursive;
+  position: relative;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #A6946A;
+  text-shadow: 2px;
+}
+
+.aNavInicio {
+  font-size: 12px;
+}
+
+.aNav:hover {
+  color: #299E6F;
+  transition: 1s;
+}
+
+li {
+  position: relative;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+  background-color: #3E5A4F;
+  padding: 5px;
+}
+
+ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+.aSubMenu {
+  text-decoration: none;
+  color: #e0e0cd;
+  font-size: 15px;
+}
+
+.aSubMenu:hover {
+  color: #299E6F;
+  transition: 1s;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #bec294, #637f39);
+  font-family: Ubuntu;
+}
+
+.main--Formato {
+  margin-top: 10vh;
+  margin-left: 10px;
+  margin-bottom: 5vh;
+  height: 83%;
+}
+
+.carousel-inner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 65vh;
+  z-index: 10;
+}
+
+.parrafo__Main--Formato {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.segundoParrafo__Main--Contenedor {
+  background-color: rgba(139, 55, 29, 0.788);
+  color: black;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* Index Images */
+aside {
+  margin: 15px;
+  margin-bottom: 25px;
+}
+
+.main__Images--Formato {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 5px;
+  flex-wrap: wrap;
+}
+
+.indexImages {
+  width: 100%;
+  object-fit: cover;
+  padding: 10px;
+  height: 300px;
+  transition: 1s;
+}
+
+.indexImages:hover {
+  filter: grayscale(0.8);
+  transform: scale(0.9, 0.9);
+}
+
+/* Especies */
+.main__Ul--Especies {
+  list-style: circle;
+}
+
+/* Footer */
+.footer--Formato {
+  background-color: #155239;
+  font-weight: 600;
+  margin-left: 10px;
+  padding-bottom: 4px;
+  display: block;
+  height: 4%;
+  width: 100%;
+  font-size: 15px;
+  position: fixed;
+  bottom: 0;
+}
+.footer--Formato .footer__Ul--Formato {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+.footer--Formato .footer__Ul--Formato .footer__Li--Align {
+  list-style: none;
+}
+.footer--Formato .footer__Ul--Formato .footer__Li--Align .footer__a--Text {
+  text-decoration: none;
+  color: #e0e0cd;
+}
+.footer--Formato .footer__Ul--Formato .footer__Li--Align .footer__a--Text:hover {
+  color: #2DAD7A;
+}
+
+/* Media querys */
+@media only screen and (min-width: 480px) {
+  footer {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  nav ul li {
+    font-size: 24px;
+  }
+
+  nav {
+    height: 8vh;
+  }
+}
+.h1__Contacto {
+  text-align: center;
+}
+
+.Div__formulario {
+  display: flex;
+  justify-content: center;
+}
+.Div__formulario .formulario--Formato {
+  display: grid;
+  grid-template-columns: 250px 200px;
+  grid-template-rows: repeat(8);
+  border: 3px solid;
+  background-color: #bec294;
+  font-weight: 600;
+  padding: 10px;
+  grid-template-areas: "nombre inputNombre" "email inputEmail" "fecha inputFecha" "nacionalidad inputNacionalidad" "noticias inputNoticias" "mensaje mensaje" "inputMensaje inputMensaje" "reset submit";
+  grid-gap: 5px;
+}
+.Div__formulario .formulario--Formato .formulario__label--Mensaje {
+  grid-area: mensaje;
+}
+.Div__formulario .formulario--Formato .formulario__label--Email {
+  grid-area: email;
+}
+.Div__formulario .formulario--Formato .formulario__label--Fecha {
+  grid-area: fecha;
+}
+.Div__formulario .formulario--Formato .formulario__label--Nacionalidad {
+  grid-area: nacionalidad;
+}
+.Div__formulario .formulario--Formato .formulario__label--Noticias {
+  grid-area: noticias;
+}
+.Div__formulario .formulario--Formato .formulario__label--Mensaje {
+  grid-area: mensaje;
+}
+.Div__formulario .formulario--Formato .formulario__Botones--reset {
+  grid-area: reset;
+}
+.Div__formulario .formulario--Formato .formulario__Botones--submit {
+  grid-area: submit;
+}
+.Div__formulario .formulario--Formato .formulario__input--Nombre {
+  grid-area: inputNombre;
+}
+.Div__formulario .formulario--Formato .formulario__input--Email {
+  grid-area: inputEmail;
+}
+.Div__formulario .formulario--Formato .formulario__input--Fecha {
+  grid-area: inputFecha;
+}
+.Div__formulario .formulario--Formato .formulario__input--Nacionalidad {
+  grid-area: inputNacionalidad;
+}
+.Div__formulario .formulario--Formato .formulario__input--Noticias {
+  grid-area: inputNoticias;
+  justify-self: center;
+}
+.Div__formulario .formulario--Formato .formulario__input--Mensaje {
+  grid-area: inputMensaje;
+}
+
+.Apoyanos__h1 {
+  text-align: center;
+}
+
+.Apoyanos__p {
+  font-weight: 600;
+  margin: 15px;
+}
+
+.Div__Form--apoyanos {
+  display: flex;
+  justify-content: center;
+}
+.Div__Form--apoyanos .Apoyanos__form {
+  border: 3px solid;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.Biblio__h1 {
+  margin: 8px;
+  padding: 5px;
+  text-align: center;
+}
+
+.Main__Div--Bibliografia {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 3px solid;
+  margin: 5px;
+}
+.Main__Div--Bibliografia .Main__Div--Imagen {
+  max-width: 25%;
+  margin-top: 15px;
+}
+.Main__Div--Bibliografia .Main__Div--Texto {
+  max-width: 75%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
