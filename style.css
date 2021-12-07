@@ -60,7 +60,7 @@ nav ul li {
   text-align: center;
 }
 
-nav ul li a {
+.aNav {
   text-decoration: none;
   color: #A6946A;
   text-shadow: 2px;
@@ -230,7 +230,8 @@ aside {
   grid-template-columns: 250px 200px;
   grid-template-rows: repeat(8);
   border: 3px solid;
-  background-color: #bec294;
+  border-color: #594E35;
+  background-color: #594e3552;
   font-weight: 600;
   padding: 10px;
   grid-template-areas: "nombre inputNombre" "email inputEmail" "fecha inputFecha" "nacionalidad inputNacionalidad" "noticias inputNoticias" "mensaje mensaje" "inputMensaje inputMensaje" "reset submit";
@@ -314,7 +315,9 @@ aside {
   flex-wrap: wrap;
   align-items: center;
   border: 3px solid;
+  border-color: #594E35;
   margin: 5px;
+  background-color: #594e3552;
 }
 .Main__Div--Bibliografia .Main__Div--Imagen {
   max-width: 25%;
@@ -324,6 +327,11 @@ aside {
   max-width: 75%;
   margin-left: 10px;
   margin-top: 15px;
+}
+
+.especies__Titulo {
+  text-align: center;
+  color: #e0e0cd;
 }
 
 /*# sourceMappingURL=style.css.map */
