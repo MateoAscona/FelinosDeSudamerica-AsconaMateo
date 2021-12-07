@@ -1,6 +1,29 @@
 @import "variables";
 
+
+.especies__Img{
+    width: 350px;
+    height: 350px;
+}
 .especies__Titulo{
-    text-align: center;
+    
     color: $letraClara;
+}
+
+.especies__Caracteristicas{
+    font-size: 1.2em;
+    background-color: $fondoOscuro;
+    align-self: center;
+    font-weight: 600;
+    color: $letraClara;
+
+}
+
+.especies__Contenido{
+    font-size: 1em;
+}
+
+.especies__ContenidoResaltado{
+    background-color: $verdeTransparencia;
+    align-self: center;
 }
