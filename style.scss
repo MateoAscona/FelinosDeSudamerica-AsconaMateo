@@ -108,13 +108,13 @@
           font-size: 15px;
         }
         .aSubMenu:hover{
-          color: #299E6F;
+          color: #62A68B;
           transition: 1s;
         }
   
     body{
     
-      background-image: linear-gradient(to bottom, #bec294, #637f39);
+      background-color: #A6946A;
       font-family: Ubuntu;
     }
   
@@ -135,14 +135,13 @@
     }
   
     .parrafo__Main--Formato {
-      color: #ffffff;
+      color: #e0e0cd;
       font-size: 18px;
       padding: 5px;
     }
     .segundoParrafo__Main--Contenedor {
-        background-color: hsla(14, 65%, 33%, 0.788);
-        color: black;
-        font-weight: 600;
+        background-color: #594E35;
+        color: #e0e0cd;
         margin-top: 8px;
       }
   
@@ -188,9 +187,8 @@
   /* Footer */
   
   .footer--Formato {
-    background-color: #155239;
-    font-weight: 600;
-    margin-left: 10px;
+    background-color: #3E5A4F;
+    // margin-left: 10px;
     padding-bottom: 4px;
     display: block;
     height: 4%;
