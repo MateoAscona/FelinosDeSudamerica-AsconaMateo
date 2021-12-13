@@ -5,22 +5,33 @@
 }
 
 /* Tabla "Sobre Nosotros" */
+.sobreNosotros__Contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+}
+
+tr, td {
+  border: 1px solid;
+  padding: 5px;
+  background-color: #594e3552;
+}
+
 .main__Tabla--Formato {
   border: 3px solid;
   text-align: center;
 }
 .main__Tabla--Formato .main__Tabla--fila1 {
-  background-color: #c45735;
+  background-color: #3E5A4F;
   border: 1px solid;
   font-weight: 600;
 }
 
-tr, td {
-  border: 1px solid;
-}
-
 .titulo {
-  color: #085f05;
+  padding: 20px;
+  color: #e0e0cd;
+  text-align: center;
 }
 
 /* Formato General Header y Main*/
@@ -111,19 +122,19 @@ body {
 }
 
 .main--Formato {
-  margin-top: 10vh;
-  margin-left: 10px;
+  margin-top: 8vh;
   margin-bottom: 5vh;
-  height: 83%;
+  height: 90%;
 }
 
 .carousel-inner img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 100%;
   height: 65vh;
   z-index: 10;
+  object-fit: cover;
 }
 
 .parrafo__Main--Formato {
@@ -174,9 +185,10 @@ aside {
   background-color: #3E5A4F;
   padding-bottom: 4px;
   display: block;
-  height: 4%;
+  height: 5%;
   width: 100%;
   font-size: 15px;
+  font-weight: 600;
   position: fixed;
   bottom: 0;
 }
@@ -301,6 +313,7 @@ aside {
   border: 3px solid;
   padding: 5px;
   font-weight: 600;
+  background-color: #594e3552;
 }
 
 .Biblio__h1 {
