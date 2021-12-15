@@ -2,13 +2,13 @@
 
 .Apoyanos__h1{
     text-align: center;
-    color: #e0e0cd;
+    color: $letraClara;
 }
 .Apoyanos__p{
     font-weight: 600;
     margin: 15px;
     text-align: center;
-    color: #e0e0cd;
+    color: $letraClara;
 }
 
 .Div__Form--apoyanos{
@@ -18,9 +18,10 @@
 
     .Apoyanos__form{
         border: 3px solid;
+        border-color: $bordeOscuro;;
         padding: 5px;
         font-weight: 600;
-        background-color: #594e3552;
+        background-color: $fondoOscuro;
 
     }
 }

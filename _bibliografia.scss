@@ -4,7 +4,7 @@
     margin: 8px;
     padding: 5px;
     text-align: center;
-    color: #e0e0cd;
+    color: $letraClara;
 }
 
 .Main__Div--Bibliografia{
@@ -12,9 +12,9 @@
     flex-wrap: wrap;
     align-items: center;
     border: 3px solid;
-    border-color: #594E35;
+    border-color: $bordeOscuro;
     margin: 5px;
-    background-color: #594e3552;
+    background-color: $fondoOscuro;
 
     .Main__Div--Imagen{
         max-width: 25%;

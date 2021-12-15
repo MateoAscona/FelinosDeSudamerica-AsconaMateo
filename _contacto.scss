@@ -2,7 +2,7 @@
 
 .h1__Contacto{
     text-align: center;
-    color: #e0e0cd;
+    color: $letraClara;
 }
 
 .Div__formulario{
@@ -16,8 +16,8 @@
         grid-template-columns: 250px 200px;
 	    grid-template-rows: repeat(8);
         border: 3px solid;
-        border-color: #594E35;
-        background-color: #594e3552;
+        border-color: $bordeOscuro;
+        background-color: $fondoOscuro;
         font-weight: 600;
         padding: 10px;
         grid-template-areas: 
